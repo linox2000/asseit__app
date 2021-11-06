@@ -1,0 +1,11 @@
+{
+  "name": "asseit",
+  "version": "1.0.0",
+  "description": "we are a web-developer",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass sass/main.scss css/style.css -w"
+  },
+  "author": "manuelLino/abelLino",
+  "license": "ISC"
+}

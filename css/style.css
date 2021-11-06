@@ -1,0 +1,76 @@
+/*$color-primary:
+$color-primary-light:
+$color-primary-dark:
+
+$color-secondary-light:
+$color-primary-dark:*/
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  font-family: "Roboto", sans-serif;
+  background: #000;
+  height: 100vh;
+  color: #fff;
+}
+
+.navigation {
+  background: crimson;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+.navigation__list {
+  display: flex;
+  list-style: none;
+}
+.navigation__list > * {
+  margin-right: 3rem;
+}
+
+.content {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.header {
+  position: relative;
+  height: 95vh;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.23;
+}
+.bg-video__content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
