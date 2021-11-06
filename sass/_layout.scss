@@ -19,6 +19,7 @@
   padding: 3rem;
 }
 .header{
+ 
   position: relative;
   height:95vh;
 
@@ -31,10 +32,13 @@
   height: 100%;
   width: 100%;
   z-index: -1;
-  opacity:.23;
+  opacity:.15;
   &__content{
     height: 100%;
   width: 100%;
   object-fit: cover;
   }
+}
+.main{
+  background-color:#fff;
 }

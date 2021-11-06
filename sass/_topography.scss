@@ -1,0 +1,29 @@
+.heading-primary{
+  font-size:6rem;
+  line-height: 1;
+  letter-spacing: .5rem;
+  text-transform:uppercase;
+  margin-bottom: 3rem;
+  background-image: -webkit-linear-gradient(
+  -70deg, #a2facf 0%, #64acff 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color:transparent;
+
+}
+.heading-secondary{
+  font-size:4rem;
+  line-height: 1.05;
+  text-transform:uppercase;
+  margin-bottom: 3rem;
+  background: -webkit-linear-gradient(
+-70deg, #db469f 0%, #2188ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*color-mktg-btn-primary-bg-top: hsla(137,56%,46%,1);
+    --color-mktg-btn-primary-bg-bottom: #2ea44f;
+    --color-mktg-btn-primary-bg-overlay-top: hsla(134,60%,38%,1);
+    --color-mktg-btn-primary-bg-overlay-bottom: #22863a;
+    #FFFFFF, */
